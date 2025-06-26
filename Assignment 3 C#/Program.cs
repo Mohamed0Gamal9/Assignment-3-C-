@@ -30,6 +30,13 @@
             #endregion
 
 
+            #region Q4 
+            //string name = "mohamed gamal";
+            //string Result=name.Substring(3)
+            //Console.WriteLine($"The name is: {Result}"); 
+            #endregion
+
+
 
         }
     }
