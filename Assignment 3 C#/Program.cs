@@ -36,6 +36,22 @@
             //Console.WriteLine($"The name is: {Result}"); 
             #endregion
 
+            #region Q5
+
+            //int a = 100;
+            //long b = a; // implicit conversion from int to long
+            //Console.WriteLine($"The value of b is: {b}"); // Output: The value of b is: 100
+
+            //long c = 10000L;
+            //int d = (int)c; // explicit conversion from long to int
+            //Console.WriteLine($"The value of d is: {d}"); // Output: The value of d is: 10000
+
+            #endregion
+
+            #region q6
+
+            #endregion
+
 
 
         }
