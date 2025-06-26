@@ -139,6 +139,19 @@ namespace assignment_3
             //}
             #endregion
             #region Q13
+            //int x;
+            //Console.Write("enter your number: ");
+            //x = Convert.ToInt32(Console.ReadLine());
+            //if(x==0)
+            //{
+            //    Console.WriteLine("zero");
+            //}
+            //else if (x>0)
+            //{ Console.WriteLine("positive");
+            //}
+            //else
+            //{ Console.WriteLine("negative"); }
+            #endregion
         }
 
 
