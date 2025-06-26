@@ -153,7 +153,7 @@ namespace assignment_3
             //{ Console.WriteLine("negative"); }
             #endregion
             #region Q14
-            int x,y,z;
+            int x, y, z;
             Console.Write("enter your first number: ");
             x = Convert.ToInt32(Console.ReadLine());
             Console.Write("enter your seconed number: ");
@@ -161,7 +161,7 @@ namespace assignment_3
             Console.Write("enter your third number: ");
             z = Convert.ToInt32(Console.ReadLine());
             Console.Clear();
-            if(x>y && x > z)
+            if (x > y && x > z)
             {
                 Console.WriteLine($"the max element is : {x}");
             }
@@ -173,6 +173,23 @@ namespace assignment_3
             {
                 Console.WriteLine($"the max element is : {z}");
             }
+            if (x < y && x < z)
+            {
+                Console.WriteLine($"the min element is : {x}");
+            }
+            else if (y < x && y < z)
+            {
+                Console.WriteLine($"the max element is : {y}");
+            }
+            else
+            {
+                Console.WriteLine($"the max element is : {z}");
+            }
+
+            #endregion
+
+            #region Q15
+
 
             #endregion
         }
