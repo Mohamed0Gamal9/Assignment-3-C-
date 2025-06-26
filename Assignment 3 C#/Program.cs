@@ -17,7 +17,17 @@
             //Console.Clear();
             //Console.WriteLine($"the number is : {number}");
             //it will give an exception bec it can't happen(System.FormatException: 'The input string 'asd' was not in a correct format.' 
-	        #endregion  
+            #endregion
+
+            #region Q3
+
+            //float a = 1.23f , b=2.5f;
+
+            //Console.WriteLine($"result of a+b is : {a+b}");
+            //Console.WriteLine($"result of a*b is : {a * b}");
+            //Console.WriteLine($"result of a-b is : {a - b}");
+            //Console.WriteLine($"result of a/b is : {a / b}"); 
+            #endregion
 
 
 
