@@ -1,5 +1,13 @@
-﻿namespace assignment_3
+﻿using System;
+
+namespace assignment_3
 {
+    class Person
+    {
+        public string Name;
+    }
+
+
     internal class program
     {
         static void Main(string[] args)
@@ -49,18 +57,26 @@
             #endregion
 
             #region q6
+            Person person1 = new Person();
+            person1.Name = "Mohamed";
 
-            #endregion
+            Person person2 = person1; 
 
-            #region q7
-            string fname = "mohamed";
-            string lname = "gamal";
-            Console.WriteLine($"{fname+lname}");
+            person2.Name = "Gamal";   
+            Console.WriteLine("person1.Name: " + person1.Name);
+            Console.WriteLine("person2.Name: " + person2.Name);
+        }
+        }
+        #endregion
 
-            #endregion
+        #region q7
+        //string fname = "mohamed";
+        //string lname = "gamal";
+        //Console.WriteLine($"{fname+lname}");
+
+        #endregion
 
 
 
         }
-    }
-}
+    
