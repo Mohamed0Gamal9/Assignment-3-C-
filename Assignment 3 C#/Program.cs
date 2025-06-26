@@ -101,7 +101,28 @@ namespace assignment_3
             //Console.WriteLine($"your BMI is : {BMI}"); 
             #endregion
 
+            #region Q10
+            //int temp, x = 10, y = 30;
+            //Console.Write("enter your temp: ");
+            //temp = Convert.ToInt32(Console.ReadLine());
+            //string    result =temp<x  ?"justcold" : temp > y ? "just hot" : "justgood";
 
+            //Console.Clear();
+            //Console.WriteLine($"the result is : {result}");
+            #endregion
+
+            #region Q11
+            //int day, month, year;
+            //Console.Write("enter your day: ");
+            //day = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter your month: ");
+            //month = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter your year: ");
+            //year = Convert.ToInt32(Console.ReadLine());
+            //Console.Clear();
+            //Console.WriteLine($"{day},{month},{year}");
+
+            #endregion
         }
 
 
