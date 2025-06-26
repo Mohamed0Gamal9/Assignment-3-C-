@@ -202,10 +202,26 @@ namespace assignment_3
             //}
 
             #endregion
+
+            #region Q16
+            Console.Write("Enter a character: ");
+            char ch = Convert.ToChar(Console.ReadLine().ToLower());
+
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+            {
+                Console.WriteLine("vowel");
+            }
+            else if (char.IsLetter(ch))
+            {
+                Console.WriteLine("consonant");
+            }
+            else
+            {
+                Console.WriteLine("Invalid input");
+            }
+
+            #endregion
         }
-
-
-    }
-}
+    } }
 
 
