@@ -89,7 +89,17 @@ namespace assignment_3
             //Console.WriteLine($"the interest is : {interest}"); 
             #endregion
 
+            #region Q9
+            //int BMI, Weight, height;
+            //Console.Write("enter your weight amount: ");
+            //Weight = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter your height: ");
+            //height = Convert.ToInt32(Console.ReadLine());
+            //BMI = Weight / (height * height);
 
+            //Console.Clear();
+            //Console.WriteLine($"your BMI is : {BMI}"); 
+            #endregion
 
 
         }
