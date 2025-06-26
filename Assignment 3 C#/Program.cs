@@ -57,26 +57,45 @@ namespace assignment_3
             #endregion
 
             #region q6
-            Person person1 = new Person();
-            person1.Name = "Mohamed";
+            //Person person1 = new Person();
+            //person1.Name = "Mohamed";
 
-            Person person2 = person1; 
+            //Person person2 = person1; 
 
-            person2.Name = "Gamal";   
-            Console.WriteLine("person1.Name: " + person1.Name);
-            Console.WriteLine("person2.Name: " + person2.Name);
+            //person2.Name = "Gamal";   
+            //Console.WriteLine("person1.Name: " + person1.Name);
+            //Console.WriteLine("person2.Name: " + person2.Name);
+
+
+            #endregion
+
+            #region q7
+            //string fname = "mohamed";
+            //string lname = "gamal";
+            //Console.WriteLine($"{fname+lname}");
+
+            #endregion
+
+            #region Q8
+            //int interest, pricipal_amount, rate, time;
+            //Console.Write("enter your principal amount: ");
+            //pricipal_amount = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter your rate: ");
+            //rate = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter your time: ");
+            //time = Convert.ToInt32(Console.ReadLine());
+            //interest = (pricipal_amount * rate * time) / 100;
+            //Console.Clear();
+            //Console.WriteLine($"the interest is : {interest}"); 
+            #endregion
+
+
+
+
         }
-        }
-        #endregion
-
-        #region q7
-        //string fname = "mohamed";
-        //string lname = "gamal";
-        //Console.WriteLine($"{fname+lname}");
-
-        #endregion
 
 
+    }
+}
 
-        }
-    
+
