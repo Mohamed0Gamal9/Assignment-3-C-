@@ -123,6 +123,22 @@ namespace assignment_3
             //Console.WriteLine($"{day},{month},{year}");
 
             #endregion
+
+            #region Q12
+            //int x;
+            //Console.Write("enter your number: ");
+            //x = Convert.ToInt32(Console.ReadLine());
+            //if (x % 3==0 && x % 4==0)
+            //{
+            //    Console.WriteLine("yes");
+
+            //}
+            //else
+            //{
+            //    Console.WriteLine("no");
+            //}
+            #endregion
+            #region Q13
         }
 
 
