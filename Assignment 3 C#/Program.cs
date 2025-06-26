@@ -204,22 +204,56 @@ namespace assignment_3
             #endregion
 
             #region Q16
-            Console.Write("Enter a character: ");
-            char ch = Convert.ToChar(Console.ReadLine().ToLower());
+            //Console.Write("Enter a character: ");
+            //char ch = Convert.ToChar(Console.ReadLine().ToLower());
 
-            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
-            {
-                Console.WriteLine("vowel");
-            }
-            else if (char.IsLetter(ch))
-            {
-                Console.WriteLine("consonant");
-            }
-            else
-            {
-                Console.WriteLine("Invalid input");
-            }
+            //if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+            //{
+            //    Console.WriteLine("vowel");
+            //}
+            //else if (char.IsLetter(ch))
+            //{
+            //    Console.WriteLine("consonant");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input");
+            //}
 
+            #endregion
+
+            #region Q17
+
+            Console.Write("Enter month number: ");
+            int month = Convert.ToInt32(Console.ReadLine());
+
+            switch (month)
+            {
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 8:
+                case 10:
+                case 12:
+                    Console.WriteLine("This month has 31 days");
+                    break;
+
+                case 4:
+                case 6:
+                case 9:
+                case 11:
+                    Console.WriteLine("This month has 30 days");
+                    break;
+
+                case 2:
+                    Console.WriteLine("This month has 28 or 29 days ");
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid month number. Please enter a number from 1 to 12");
+                    break;
+            }
             #endregion
         }
     } }
