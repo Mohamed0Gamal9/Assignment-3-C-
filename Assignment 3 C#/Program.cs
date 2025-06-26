@@ -52,6 +52,13 @@
 
             #endregion
 
+            #region q7
+            string fname = "mohamed";
+            string lname = "gamal";
+            Console.WriteLine($"{fname+lname}");
+
+            #endregion
+
 
 
         }
